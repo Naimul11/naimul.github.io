@@ -1,0 +1,105 @@
+ .attribution { font-size: 11px; text-align: center;
+    position:relative;
+    bottom:-7vh;
+    }
+    .attribution a { color: hsl(228, 48%, 67%); }   
+
+  body{
+    max-width: 1440px;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+    .main{
+      height: 480px;
+      display: grid;
+      grid-auto-flow: column;
+      border-radius: 0.8rem;
+      overflow: hidden;
+    }
+    .sedans{
+      width:200px;
+      background:hsl(31, 77%, 52%);
+      color:hsla(0, 0%, 100%, 0.75);
+      padding: 2.5rem;
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+     display: grid;
+    }
+    .sedans>b{
+      font-size: 2rem;
+      font-family: 'Big Shoulders Display', cursive;
+      text-transform: uppercase;
+      
+    }
+    .sedans button{
+      background:white;
+      color:hsl(31, 77%, 52%);;
+      border-radius:2rem; 
+      width:80%;
+      height:70%;
+      border:2px solid white;
+      font: 20px;
+    }
+    .sedans button:hover{
+      cursor: pointer;
+      background:hsl(31, 77%, 52%);
+      color:hsla(0, 0%, 100%, 0.75);
+    }
+    .suvs{
+      width:200px;
+      background:hsl(184, 100%, 22%);
+      color:hsla(0, 0%, 100%, 0.75);
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      padding: 2.5rem;
+      display: grid;
+    }
+    .suvs>b{
+      font-size: 2rem;
+      font-family: 'Big Shoulders Display', cursive;
+      text-transform: uppercase;
+      
+    }
+    .suvs button{
+      mix-blend-mode: screen;
+      border-radius:2rem; 
+      width:80%;
+      height:70%;
+      border:2px solid white;
+      font: 15px;
+    }
+    .suvs button:hover{
+      cursor: pointer;
+      background:hsl(184, 100%, 22%);
+      color:hsla(0, 0%, 100%, 0.75);
+    }
+   .luxury{
+      width:200px;
+      background: hsl(179, 100%, 13%);
+      color:hsla(0, 0%, 100%, 0.75);
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      padding: 2.5rem;
+      display: grid;
+    }
+    .luxury>b{
+      font-size: 2rem;
+      font-family: 'Big Shoulders Display', cursive;
+      text-transform: uppercase;
+      
+    }
+    .luxury button{
+      mix-blend-mode: screen;
+      border-radius:2rem; 
+      width:80%;
+      height:70%;
+      border:2px solid white;
+      font: 15px;
+    }
+    .luxury button:hover{
+      cursor: pointer;
+      background: hsl(179, 100%, 13%);
+      color:hsla(0, 0%, 100%, 0.75);
+    }

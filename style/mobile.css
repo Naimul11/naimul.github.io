@@ -1,0 +1,106 @@
+
+body{
+    max-width:375px;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+  }
+    .main{
+      margin:auto;
+      display: grid;
+      grid-auto-flow: row;
+      border-radius: 0.8rem;
+      overflow: hidden;
+    }
+    .sedans{
+      width:200px;
+      height: 350px;
+      background:hsl(31, 77%, 52%);
+      color:hsla(0, 0%, 100%, 0.75);
+      padding: 3rem;
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      display: grid;
+    }
+    .sedans>b{
+      font-size: 2rem;
+      font-family: 'Big Shoulders Display', cursive;
+      text-transform: uppercase;
+      
+    }
+    .sedans button{
+      mix-blend-mode: screen;
+      border-radius:2rem; 
+      width:80%;
+      height:70%;
+      border:2px solid white;
+      font-size: 15px;
+    }
+    .sedans button:hover{
+      cursor: pointer;
+      background:hsl(31, 77%, 52%);
+      color:hsla(0, 0%, 100%, 0.75);
+    }
+    .suvs{
+      width:200px;
+      height: 350px;
+      background:hsl(184, 100%, 22%);
+      color:hsla(0, 0%, 100%, 0.75);
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      padding: 3rem;
+      display: grid;
+    }
+    .suvs>b{
+      font-size: 2rem;
+      font-family: 'Big Shoulders Display', cursive;
+      text-transform: uppercase;
+      
+    }
+    .suvs button{
+      mix-blend-mode: screen;
+      border-radius:2rem; 
+      width:80%;
+      height:70%;
+      border:2px solid white;
+      font-size: 15px;
+    }
+    .suvs button:hover{
+      cursor: pointer;
+      background:hsl(184, 100%, 22%);
+      color:hsla(0, 0%, 100%, 0.75);
+    }
+   .luxury{
+      width:200px;
+      height: 350px;
+      background: hsl(179, 100%, 13%);
+      color:hsla(0, 0%, 100%, 0.75);
+      font-size: 15px;
+      font-family: 'Lexend Deca', sans-serif;
+      padding: 3rem;
+      display: grid;
+    }
+    .luxury>b{
+      font-size: 2rem;
+      font-family: 'Big Shoulders Display', cursive;
+      text-transform: uppercase;
+      
+    }
+    .luxury button{
+      mix-blend-mode: screen;
+      border-radius:2rem; 
+      width:80%;
+      height:70%;
+      border:2px solid white;
+      font-size: 15px;
+    }
+    .luxury button:hover{
+      cursor: pointer;
+      background: hsl(179, 100%, 13%);
+      color:hsla(0, 0%, 100%, 0.75);
+    }
+    .attribution { font-size: 11px; text-align: center;
+        position:relative;
+        bottom:-7vh;
+        }
+         a { color: hsl(228, 48%, 67%); } 
